@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "jsx": "react",
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "types": [
+        "cypress",
+        "@badeball/cypress-cucumber-preprocessor"
+      ],
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": [
+      "cypress/**/*.ts",
+      "src/**/*.ts"
+    ]
+  }
+  
